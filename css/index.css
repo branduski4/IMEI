@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border box;
+}
+
+#header {
+  padding: 2% 8%;
+  background-color: #458fcc;
+  font-family: "Source Sans Pro", sans-serif;
+}
+#header .nav-link {
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.2rem;
+}
+#header .nav-link:hover {
+  color: lightgray;
+  transition: all 0.3s ease-in-out;
+}
+
+/*# sourceMappingURL=index.css.map */

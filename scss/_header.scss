@@ -1,0 +1,23 @@
+#header{
+    padding: 2% 8%;
+    background-color: $sectionColor;
+    font-family:$fontStyle;
+    
+    // .navbar-brand{
+    //     background-image: url('../img/logo-removebg-preview.png');
+    //     background-repeat: no-repeat;
+    //     height: 100px;
+    //     width: 150px;
+    //     background-size: contain;
+    // }
+    .nav-link{
+        color: white;
+        font-family: $fontStyle;
+        font-size: 1.2rem;
+        &:hover{
+            color: lightgray;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+}
+
