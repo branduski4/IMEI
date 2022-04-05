@@ -1,0 +1,43 @@
+#testimonials{
+    .testimonial-img{
+      width: 100%;
+      height: 85vh;
+     object-fit: none;
+  
+    }
+    .testimonial-img-one{
+        background-image: url('/img/logo2-removebg-preview.png');
+        background-repeat: no-repeat;
+        height: 100px;
+        width: 100px;
+        
+    }
+}
+#main{
+    background-color: white;
+    font-family: $fontStyle;
+    padding: 5% 8%;
+    .main-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        color: white;
+        img{
+            width: 500px;
+            height: 300px;
+        }
+        .title-heading{
+            font-size: 5.5rem;
+            font-weight: bold;
+            margin-bottom: 2rem;
+            color: black;
+        }
+        .title-description{
+            font-size: 1.3rem;
+            color: black;
+
+        }
+    }
+}
+

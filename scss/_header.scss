@@ -1,22 +1,38 @@
 #header{
-    padding: 2% 8%;
-    background-color: $sectionColor;
+    padding: 1% 8%;
+    background-color: white;
     font-family:$fontStyle;
+    border-bottom: 5px solid #3979da;
+   
     
-    // .navbar-brand{
-    //     background-image: url('../img/logo-removebg-preview.png');
-    //     background-repeat: no-repeat;
-    //     height: 100px;
-    //     width: 150px;
-    //     background-size: contain;
-    // }
+    .navbar-brand{
+        background-image: url('../img/logo-removebg-preview.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 70px;
+        width: 150px;
+    }
+
     .nav-link{
-        color: white;
-        font-family: $fontStyle;
-        font-size: 1.2rem;
+        color: black;
+        font-family: $fontStyle
+        ;font-size: 1.2rem;
         &:hover{
-            color: lightgray;
+            color: grey;
+           
             transition: all 0.3s ease-in-out;
+            
+        }
+    }
+    .contact{
+       
+        border-radius: 4px;
+        background-color: #3979da;
+        color: white;
+        &:hover{
+            color: white;
+            transition: all 0.2s ease-in-out;
+            background-color: rgb(50, 110, 201);;
         }
     }
 }

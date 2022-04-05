@@ -1,0 +1,15 @@
+#productos{
+    background-color: #3979da;
+    padding: 4% 8%;
+    
+    .card{
+        border: none;
+        box-shadow: 5px 3px 3px  rgba(0, 0, 0, 0.6);
+    }
+
+    h1{
+        color: white;
+        font-family: $fontStyle;
+        text-align: center;
+    }
+}
