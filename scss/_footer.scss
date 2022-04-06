@@ -1,7 +1,18 @@
 .footer{
     padding: 4% 8%;
     font-family: $fontStyle;
+    
     .icon{
         text-align: center;
     }
+    
+    .fa-brands{
+        color:black
+    }&:hover{
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        color: black;
+    }
+        
+   
 }

@@ -1,16 +1,22 @@
 #productos{
-    background-color: #3979da;
+    background: rgb(1,159,222);
+background: linear-gradient(90deg, rgba(1,159,222,1) 8%, rgba(144,190,216,1) 49%, rgba(125,154,221,1) 92%);
     padding: 4% 8%;
     
    h1{
-       font-family: $fontStyle;
-       text-align: center;
+   
+    font-family: $fontStyle;
+    text-align: center;
+    color: white;
+       margin-bottom: 2rem;
    }
-
+   .product-container{
+       text-align:center;
+   }
 }
 
 
-@media(max-width:1000px){
+@media(max-width:1024px){
     .product-img{
         width: 200px;
         height: 200px;

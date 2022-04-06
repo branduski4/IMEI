@@ -8,7 +8,7 @@
   padding: 1% 8%;
   background-color: white;
   font-family: "Source Sans Pro", sans-serif;
-  border-bottom: 5px solid #3979da;
+  border-bottom: 5px solid #019fde;
 }
 #header .navbar-brand {
   background-image: url("../img/logo-removebg-preview.png");
@@ -28,7 +28,8 @@
 }
 #header .contact {
   border-radius: 4px;
-  background-color: #3979da;
+  background: #019fde;
+  background: linear-gradient(90deg, #019fde 8%, #90bed8 49%, #7d9add 92%);
   color: white;
 }
 #header .contact:hover {
@@ -54,29 +55,37 @@
 }
 
 #main {
-  background-color: white;
+  background: #019fde;
+  background: linear-gradient(90deg, #019fde 8%, #90bed8 49%, #7d9add 92%);
   font-family: "Source Sans Pro", sans-serif;
-  padding: 5% 8%;
-}
-#main .main-container {
+  padding: 4rem 8%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#main .main-container {
+  padding: 0;
   color: white;
+}
+#main .main-container .img-container {
+  padding: 0;
+}
+#main .main-container .title {
+  padding: 0;
 }
 #main .main-container img {
   width: 450px;
   height: 250px;
 }
 #main .main-container .title-heading {
-  font-size: 3.4rem;
+  font-size: 3.5rem;
   font-weight: bold;
   margin-bottom: 2rem;
-  color: black;
+  color: white;
 }
 #main .main-container .title-description {
   font-size: 1.2rem;
-  color: black;
+  color: white;
 }
 
 @media (max-width: 425px) {
@@ -89,6 +98,7 @@
 @media (max-width: 991px) {
   #main .img-container {
     text-align: center;
+    padding: 0;
   }
   #main .main-container img {
     width: 350px;
@@ -113,6 +123,7 @@
   padding: 6% 8%;
 }
 #servicios h1 {
+  color: #019fde;
   font-family: "Source Sans Pro", sans-serif;
   text-align: center;
   margin-bottom: 3rem;
@@ -124,17 +135,26 @@
 #servicios .card {
   margin-bottom: 1rem;
 }
+#servicios .card-title {
+  color: #019fde;
+}
 
 #productos {
-  background-color: #3979da;
+  background: #019fde;
+  background: linear-gradient(90deg, #019fde 8%, #90bed8 49%, #7d9add 92%);
   padding: 4% 8%;
 }
 #productos h1 {
   font-family: "Source Sans Pro", sans-serif;
   text-align: center;
+  color: white;
+  margin-bottom: 2rem;
+}
+#productos .product-container {
+  text-align: center;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .product-img {
     width: 200px;
     height: 200px;
@@ -151,6 +171,14 @@
 }
 .footer .icon {
   text-align: center;
+}
+.footer .fa-brands {
+  color: black;
+}
+.footer:hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  color: black;
 }
 
 /*# sourceMappingURL=index.css.map */
