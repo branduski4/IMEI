@@ -1,0 +1,22 @@
+#productos{
+    background-color: #3979da;
+    padding: 4% 8%;
+    
+   h1{
+       font-family: $fontStyle;
+       text-align: center;
+   }
+
+}
+
+
+@media(max-width:1000px){
+    .product-img{
+        width: 200px;
+        height: 200px;
+        text-align: center;
+    }
+    .product-container{
+        text-align: center;
+    }
+}

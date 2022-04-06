@@ -24,20 +24,49 @@
         
         color: white;
         img{
-            width: 500px;
-            height: 300px;
+            width: 450px;
+            height: 250px;
         }
         .title-heading{
-            font-size: 5.5rem;
+            font-size: 3.4rem;
             font-weight: bold;
             margin-bottom: 2rem;
             color: black;
         }
         .title-description{
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             color: black;
 
         }
     }
 }
 
+@media(max-width:991px){
+    #main{
+        .img-container{
+            text-align: center;
+        }
+        .main-container img{
+            width: 350px;
+            height: 250px;
+            margin-bottom: 2rem;
+        }
+        .title-heading{
+            font-size: 2rem;
+            text-align:center;
+        }
+        .title-description{
+            text-align: center;
+        }
+    }
+}
+
+@media(max-width:425px){
+    #main{
+        .main-container img{
+            width: 250px;
+            height: 150px;
+        }
+    }
+    
+}
